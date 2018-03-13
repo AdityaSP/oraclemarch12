@@ -1,0 +1,24 @@
+1. owner repository
+https://github.com/anupama-gs/try-git-new
+
+2. AdityaSP forked try-git-new
+https://github.com/AdityaSP/try-git-new
+
+3. git clone https://github.com/AdityaSP/try-git-new
+
+4. git remote -v
+
+5. git remote set-url origin https://github.com/anupama-gs/try-git-new
+# both fetch and push urls will get changed
+
+6. git remote set-url --push origin https://github.com/AdityaSP/try-git-new
+
+$ git remote -v
+origin  https://github.com/anupama-gs/try-git-new (fetch)
+origin  https://github.com/AdityaSP/try-git-new (push)
+
+7. git fetch
+or 
+git pull
+
+8. git push

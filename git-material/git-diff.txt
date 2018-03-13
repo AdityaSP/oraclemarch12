@@ -1,0 +1,15 @@
+diff between cwd and staged
+git diff
+
+diff between staged and commited
+git diff --cached myfile.txt
+
+diff between cwd and committed
+git diff HEAD
+
+git config --global --add diff.tool kdiff3
+git config --global --add diff.guitool kdiff3
+git config --global --add difftool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"
+git config --global --add difftool.kdiff3.trustExitCode false
+
+

@@ -1,0 +1,15 @@
+git undoing
+1. git amend
+git commit --amend
+
+2. checkout
+git checkout <version number>
+
+3. git revert
+
+4. git reset
+git reset --mixed HEAD
+git reset --hard HEAD
+ 
+
+5. git checkout HEAD -- my-file.txt
